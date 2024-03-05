@@ -1,0 +1,39 @@
+sudo su
+
+echo 319 > /sys/class/gpio/export
+echo 320 > /sys/class/gpio/export
+echo 321 > /sys/class/gpio/export
+echo 322 > /sys/class/gpio/export
+echo 323 > /sys/class/gpio/export
+echo 324 > /sys/class/gpio/export
+echo 325 > /sys/class/gpio/export
+
+
+
+echo out > /sys/class/gpio/gpio319/direction
+echo out > /sys/class/gpio/gpio320/direction
+echo out > /sys/class/gpio/gpio321/direction
+echo out > /sys/class/gpio/gpio322/direction
+echo out > /sys/class/gpio/gpio323/direction
+echo out > /sys/class/gpio/gpio324/direction
+echo out > /sys/class/gpio/gpio325/direction
+
+
+
+echo 0 > /sys/class/gpio/gpio319/value
+echo 0 > /sys/class/gpio/gpio320/value
+echo 0 > /sys/class/gpio/gpio321/value
+echo 0 > /sys/class/gpio/gpio322/value
+echo 0 > /sys/class/gpio/gpio323/value
+echo 0 > /sys/class/gpio/gpio324/value
+echo 0 > /sys/class/gpio/gpio325/value
+
+echo 1 > /sys/class/gpio/gpio319/value
+echo 1 > /sys/class/gpio/gpio320/value
+echo 1 > /sys/class/gpio/gpio321/value
+echo 1 > /sys/class/gpio/gpio322/value
+echo 1 > /sys/class/gpio/gpio323/value
+echo 1 > /sys/class/gpio/gpio324/value
+echo 1 > /sys/class/gpio/gpio325/value
+
+

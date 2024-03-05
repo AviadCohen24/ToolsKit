@@ -1,0 +1,8 @@
+sudo su
+
+#Writing ARinc Height data to BRAM
+devmem2 0xa0030000 W <data>
+
+
+#writing ARinc WoW data to BRAM
+devmem2 0xa0032000 W <data>
